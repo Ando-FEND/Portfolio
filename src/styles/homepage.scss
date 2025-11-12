@@ -26,9 +26,9 @@
     animation: bounce 3s ease-out infinite;
 }
 .homepage-container{
-    width: calc(100vw - 300px); // Subtraherar 200px från varje sida
+    width: calc(100vw - 300px); 
     height: calc(100vh - 300px);
-    margin: 150px 150px; // 200px margin på vänster och höger sida
+    margin: 150px 150px; 
 }
 
 .gravitas-one-regular {
@@ -78,4 +78,8 @@ body{
 .link-container a:hover {
   transform: scale(1.5);
   
+}
+
+html{
+  scroll-behavior: smooth;
 }

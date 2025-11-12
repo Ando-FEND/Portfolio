@@ -14,7 +14,7 @@ const Homepage = () => {
       
       <div className='link-container'>
         <div className='a-links'>
-        <a href="">About</a>
+        <a href="#about">About</a>
         <a href="">Projects</a>
         <a href="">Contact</a>
         </div>
@@ -25,6 +25,9 @@ const Homepage = () => {
         <i class="fa-solid fa-arrow-down"></i>
       </div>
     </div>
+
+
+
   )
 }
 
