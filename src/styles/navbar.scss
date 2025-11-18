@@ -1,0 +1,38 @@
+.navbar-container{
+    position: fixed;
+    top:40%;
+    z-index: 1000;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+    
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-left: 20px;
+        list-style: none;
+        
+    }
+    a{
+    text-decoration: none;
+    color:gray;
+    }
+}
+
+.navbar-container a.active{
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-container.hidden{
+    opacity: 0;
+    transform: translateX(100%);
+    pointer-events: none;
+}
+.navbar-container.visible{
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+}
+
+

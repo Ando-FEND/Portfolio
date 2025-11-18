@@ -1,22 +1,17 @@
 import React from 'react'
 import '../styles/about.css'
-import mushroomImg from "../assets/mushroom.jpeg"
-import scoglioImg from "../assets/scoglio.jpeg"
-import pizzaImg from "../assets/pizza.jpeg"
-import salsicciaImg from "../assets/salsiccia.jpeg"
 const About = ({id}) => {
   return (
     <div className='about-container'>
     <section id={id}>
     
     <h1>About</h1>
-
-    <img src="" alt="" />
     <div className='container'>
     <div className='texrd'>
     <h2>Antonio Brynildsen, Avid learner and (soon to be) web developer</h2>
 
     <hr />
+    <br />
     
     <p>Hi my name is Antonio Brynildsen or better known online as Ando.</p>
 
@@ -30,17 +25,7 @@ const About = ({id}) => {
     <p>I enjoy making simple and clean websites but latley ive been getting really inspired by people on LinkedIn such as adam who makes simple but great websites with alot of thought on IX/UX hopefully this portfolio is representative of what im trying to become, a webdeveloper who uses minimalistic but yet interesting gimmicks</p>
 </div>
 
-<div className='carousel'>
-    <h2>Here are some pictures of food ive made!</h2>
-    <hr />
-    <div>
-        <img src={mushroomImg} alt="" className='gallery-image'/>
-        <img src={scoglioImg} alt="" className='gallery-image' />
-        <img src={pizzaImg} alt="" className='gallery-image' />
-        <img src={salsicciaImg} alt="" className='gallery-image' />
-    </div>
 
-</div>
 </div>
     </section>
       
