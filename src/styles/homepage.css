@@ -8,7 +8,6 @@
 }
 .link-container a {
   font-size: 100px;
-  font-family: "Crimson Pro', Georgia, serif";
   color: #D9D9D9;
   margin-bottom: 30px;
 }
@@ -42,12 +41,6 @@
   max-width: 1200px;
   margin: 0 auto;
   min-height: 100vh;
-}
-
-.gravitas-one-regular {
-  font-family: "Gravitas One", serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 body {
