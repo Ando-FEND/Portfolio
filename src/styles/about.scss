@@ -36,4 +36,37 @@ p{
         margin-bottom:0;
     }
 }
+@media (max-width: 768px) {
+    section {
+        margin-left: 0; // Ta bort stor vänster-marginal
+        width: 100%;
+    }
+    
+    .container {
+        flex-direction: column; // Stack allt vertikalt
+        gap: var(--space-small);
+    }
+    
+    .texrd {
+        max-width: 100%; // Full bredd istället för 70%
+        margin-top: var(--space-medium);
+    }
+    
+    h1 {
+        text-align: center; // Centrera titel på mobil
+        margin-bottom: var(--space-medium);
+    }
+    
+    h2 {
+        width: 100%; // Ta bort fast 500px bredd
+        text-align: left; // Lättare att läsa än justify på mobil
+    }
+    
+    p {
+        text-align: left;
+        font-size:var(--font-regular);
+    }
+}
+
+
 

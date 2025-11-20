@@ -17,24 +17,24 @@ const Home = () => {
       date:"Apr.2025 / Design & Dev",
       githubUrl:""
     },
-    {
-      title:"",
-      description:"",
-      date:"",
+        {
+      title:"Tamagochi application",
+      description:"A tamagochi game where you can feed, play and take a nap",
+      date:"Apr.2025 / Design & Dev",
       githubUrl:""
     },
-    {
-      title:"",
-      description:"",
-      date:"",
+        {
+      title:"Tamagochi application",
+      description:"A tamagochi game where you can feed, play and take a nap",
+      date:"Apr.2025 / Design & Dev",
       githubUrl:""
     },
-    {
-      title:"",
-      description:"",
-      date:"",
+        {
+      title:"Tamagochi application",
+      description:"A tamagochi game where you can feed, play and take a nap",
+      date:"Apr.2025 / Design & Dev",
       githubUrl:""
-    },  
+    }
   ]
   return (
     <div>
