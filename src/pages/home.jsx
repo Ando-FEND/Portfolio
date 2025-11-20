@@ -1,8 +1,8 @@
-import React from 'react'
 import Projectcard from '../components/projectcard.jsx'
 import "../styles/homepage.scss"
 import "../styles/about.scss"
 import "../styles/contact.scss"
+import "../styles/projects.scss"
 const Home = () => {
   const projectsData = [
     {
@@ -43,7 +43,7 @@ const Home = () => {
         <div className='intro-div'>
           <h3>ANTONIO BRYNILDSEN</h3>
           <p>Frontend Developer student @Nackademin</p>
-          <p>Currentyl looking for LIA/Internship</p>
+          <p>Currently looking for LIA/Internship</p>
         </div>
         <div className='link-container'>
           <div className='a-links'>
@@ -107,5 +107,4 @@ const Home = () => {
     </div>
   )
 }
-
 export default Home

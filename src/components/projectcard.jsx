@@ -1,5 +1,3 @@
-import React from 'react'
-import "../styles/projects.css"
 const Projectcard = ({title, description, date, technologies, githubUrl, liveUrl}) => {
   return (
   <a href={githubUrl} target="_blank" rel="noopener norefferer" className='project-link'>

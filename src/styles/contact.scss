@@ -1,9 +1,10 @@
+@import 'variables';
 .stuff{
-    margin-left: 100px;
+    margin-left:var(--space-huge);
 }
 .contact-links-container{
-    margin-top: 25px;
-    gap: 20px;
+    margin-top: var(--space-small);
+    gap: var(--space-xs);
     display: flex;
     flex-direction: column;
 }
@@ -12,6 +13,6 @@
     flex-direction: row;
 
     p{
-        margin-right: 20px;
+        margin-right: var(--space-xs);
     }
 }

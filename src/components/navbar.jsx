@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from 'react'
-
-import '../styles/navbar.css'
-
+import { useEffect, useState } from 'react'
+import '../styles/navbar.scss'
 
 const Navbar = () => {
     const [activeSection, setActiveSection] = useState('home')
     useEffect(()=>{
         const handleScroll = () => {
-            console.log('Scrolling...')
+            
+          
+          /*console.log('Scrolling...')*/
             const sections = ['home', 'about', 'projects', 'contact']
 
             for (const section of sections) {
@@ -39,5 +39,4 @@ const Navbar = () => {
     </div>
   )
 }
-
 export default Navbar

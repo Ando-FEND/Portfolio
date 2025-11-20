@@ -1,0 +1,65 @@
+:root {
+  // === COLORS ===
+  --bg-primary: #11282A;        // Din huvudbakgrund
+  --text-primary: #D9D9D9;      // Din huvudtext
+  --text-white: white;
+  --text-gray: gray;
+  --text-black: black;
+ 
+  
+  // === FONT SIZES ===
+  --font-hero: 100px;           // Headlines (ANTONIO BRYNILDSEN)
+  --font-h1: 70px;              // About, Projects, Contact
+  --font-h2: 35px;              // Subheadings
+  --font-nav: 50px;             // Nav links på homepage
+  --font-regular: 24px;         // Intro text
+  --font-body: 20px;            // Body text
+  --font-small: 14px;           // Project descriptions
+  
+  // === SPACING ===
+  --space-huge: 100px;          // Stora marginaler
+  --space-large: 50px;          // Medium spacing
+  --space-medium: 30px;         // Standard spacing
+  --space-small: 25px;          // Små marginaler
+  --space-xs: 20px;             // Extra små
+  --space-tiny: 5px;            // Gap mellan nav items
+  
+  // === RESPONSIVE BREAKPOINTS ===
+  @media (max-width: 768px) {
+    // Tablet
+    --font-hero: 56px;
+    --font-h1: 42px;
+    --font-h2: 28px;
+    --font-nav: 32px;
+    --font-regular: 18px;
+    --font-body: 16px;
+    --space-huge: 40px;
+    --space-large: 30px;
+  }
+  
+  @media (max-width: 480px) {
+    // Mobil
+    --font-hero: 36px;
+    --font-h1: 28px;
+    --font-h2: 22px;
+    --font-nav: 24px;
+    --font-regular: 16px;
+    --font-body: 14px;
+    --space-huge: 20px;
+    --space-large: 20px;
+    --space-medium: 15px;
+  }
+}
+
+// DARK MODE 
+[data-theme="dark"] {
+  --bg-primary: #000000;
+  --text-primary: #ffffff;
+  --text-gray: #cccccc;
+}
+
+[data-theme="light"] {
+  --bg-primary: #ffffff;
+  --text-primary: #333333;
+  --text-gray: #666666;
+}
