@@ -67,3 +67,13 @@
 html{
     background-color: #11282A;
 }
+
+
+.portfolio-wrapper{
+  width: 100%;
+  max-width: 1200px;
+  margin:0 auto;
+  padding-left: var(--space-huge);
+  padding-right: var(--space-huge);
+  box-sizing: border-box;
+}

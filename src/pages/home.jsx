@@ -37,7 +37,7 @@ const Home = () => {
     }
   ]
   return (
-    <div>
+    <div className='portfolio-wrapper'>
 
       <section id="home" className='homepage-container'>
         <div className='intro-div'>

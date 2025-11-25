@@ -1,7 +1,16 @@
 @import 'variables';
 section{
     width: 100%;
-    margin-left: var(--space-huge);
+    display: flex;
+    align-items: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 50px;
+        @media (max-width: 768px) {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 h1{
@@ -13,9 +22,9 @@ h1{
     flex-wrap: wrap;
     gap: var(--space-medium);
     
+    
 }
 .texrd{
-    max-width: 70%;
     margin-top:var(--space-large);
 }
 
