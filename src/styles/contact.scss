@@ -1,7 +1,4 @@
 @import 'variables';
-.stuff{
-    
-}
 .contact-links-container{
     margin-top: var(--space-small);
     gap: var(--space-xs);
@@ -12,24 +9,26 @@
     display: flex;
     flex-direction: row;
 
-    p{
+    a{
         margin-right: var(--space-xs);
+        text-decoration: none;
+        color: inherit;
     }
 }
 @media (max-width: 768px) {
     .stuff {
-        margin-left: 0; // Ta bort stor vänster-marginal
-        text-align: center; // Centrera kontaktinfo
+        margin-left: 0; 
+        text-align: center; 
     }
     
     .contact-links-container {
-        align-items: center; // Centrera länkar
-        gap: var(--space-medium); // Större gap för touch-targets
+        align-items: center; 
+        gap: var(--space-medium); 
     }
     
     .socialmedia-link {
-        justify-content: center; // Centrera social media länkar
-        flex-wrap: wrap; // Wrap om de blir för långa
+        justify-content: center; 
+        flex-wrap: wrap; 
         
         p {
             margin-right: var(--space-small);
@@ -40,6 +39,6 @@
 
 @media (max-width: 480px) {
     .contact-links-container {
-        gap: var(--space-large); // Ännu större gap på små skärmar
+        gap: var(--space-large); 
     }
 }

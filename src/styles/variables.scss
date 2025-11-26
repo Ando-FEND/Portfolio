@@ -21,7 +21,8 @@
   --space-large: 50px;          // Medium spacing
   --space-medium: 30px;         // Standard spacing
   --space-small: 25px;          // Små marginaler
-  --space-xs: 20px;             // Extra små
+  --space-xs: 20px;  
+  --space-xxs:10px;           // Extra små
   --space-tiny: 5px;            // Gap mellan nav items
   
   // === RESPONSIVE BREAKPOINTS ===
@@ -76,4 +77,10 @@ html{
   padding-left: var(--space-huge);
   padding-right: var(--space-huge);
   box-sizing: border-box;
+}
+
+body {
+    font-family: 'Crimson Pro', serif;
+    background-color: #11282A;
+    color: #D9D9D9;
 }
