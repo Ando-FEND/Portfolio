@@ -49,22 +49,22 @@ h1{font-weight: 100;}
 
 @media (max-width: 768px) {
     .project-link {
-        width: 100%; // Full bredd istället för 70%
+        width: 100%;
         margin-bottom: var(--space-medium);
     }
     
     .project-box {
-        width: 100%; // Full bredd
-        margin-left: 0; // Ta bort offset
+        width: 100%;
+        margin-left: 0;
         
         &:hover {
-            width: 100%; // Redan full bredd, så ingen width-förändring
-            transform: translateY(-2px); // Subtle lift istället
+            width: 100%;
+            transform: translateY(-2px);
         }
     }
     
     .btn-container {
-        justify-content: center; // Centrera knappar på mobil
+        justify-content: center;
         margin-top: var(--space-medium);
     }
 }

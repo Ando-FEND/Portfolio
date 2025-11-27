@@ -1,33 +1,27 @@
 :root {
-  // === COLORS ===
-  --bg-primary: #11282A;        // Din huvudbakgrund
-  --text-primary: #D9D9D9;      // Din huvudtext
+  --bg-primary: #11282A;
+  --text-primary: #D9D9D9;
   --text-white: white;
   --text-gray: gray;
   --text-black: black;
  
+  --font-hero: 100px;
+  --font-h1: 70px;
+  --font-h2: 35px;
+  --font-nav: 50px;
+  --font-regular: 24px;
+  --font-body: 20px;
+  --font-small: 14px;
   
-  // === FONT SIZES ===
-  --font-hero: 100px;           // Headlines (ANTONIO BRYNILDSEN)
-  --font-h1: 70px;              // About, Projects, Contact
-  --font-h2: 35px;              // Subheadings
-  --font-nav: 50px;             // Nav links på homepage
-  --font-regular: 24px;         // Intro text
-  --font-body: 20px;            // Body text
-  --font-small: 14px;           // Project descriptions
-  
-  // === SPACING ===
-  --space-huge: 100px;          // Stora marginaler
-  --space-large: 50px;          // Medium spacing
-  --space-medium: 30px;         // Standard spacing
-  --space-small: 25px;          // Små marginaler
+  --space-huge: 100px;
+  --space-large: 50px;
+  --space-medium: 30px;
+  --space-small: 25px;
   --space-xs: 20px;  
-  --space-xxs:10px;           // Extra små
-  --space-tiny: 5px;            // Gap mellan nav items
+  --space-xxs:10px;
+  --space-tiny: 5px;
   
-  // === RESPONSIVE BREAKPOINTS ===
   @media (max-width: 768px) {
-    // Tablet
     --font-hero: 56px;
     --font-h1: 42px;
     --font-h2: 28px;
@@ -39,7 +33,6 @@
   }
   
   @media (max-width: 480px) {
-    // Mobil
     --font-hero: 36px;
     --font-h1: 28px;
     --font-h2: 22px;
@@ -52,7 +45,6 @@
   }
 }
 
-// DARK MODE 
 [data-theme="dark"] {
   --bg-primary: #000000;
   --text-primary: #ffffff;
@@ -68,7 +60,6 @@
 html{
     background-color: #11282A;
 }
-
 
 .portfolio-wrapper{
   width: 100%;

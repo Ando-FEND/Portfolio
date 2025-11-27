@@ -86,10 +86,9 @@ html{
 }
 @media (max-width: 768px) {
     .homepage-container {
-        // Stack innehåll vertikalt
         flex-direction: column;
-        justify-content: center; // Centrera allt
-        text-align: center; // Centrera text
+        justify-content: center;
+        text-align: center;
     }
     
     .container{
@@ -97,7 +96,7 @@ html{
     }
 
     .intro-div {
-        order: 1; // Text först
+        order: 1;
         margin-bottom: var(--space-large);
         p{
           text-align: center;
@@ -105,8 +104,8 @@ html{
       }
       
     .link-container {
-        order: 2; // Navigation/links efter
-        align-items: center; // Centrera istället för flex-end
+        order: 2;
+        align-items: center;
         margin-top: var(--space-medium);
         width: 100%;
         a{
