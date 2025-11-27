@@ -4,6 +4,10 @@ import "../styles/about.scss"
 import "../styles/contact.scss"
 import "../styles/projects.scss"
 import Arr from '../components/arr.jsx'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSquareGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+
 const Home = () => {
   const projectsData = [
     {
@@ -94,9 +98,9 @@ I enjoy creating simple and clean websites, hopefully this portfolio represents 
           <h3>Currently looking for an internship/LIA remote or on site</h3>
           <div className='contact-links-container'>
             <div className='socialmedia-link'>
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/Ando-FEND">Github</a>
-              <a target="_blank" rel="noopener noreferrer" href="">LinkedIn</a>
-              <a target="_blank" rel="noopener noreferrer" href="">Mail</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/Ando-FEND"><FontAwesomeIcon icon={faSquareGithub} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/antonio-brynildsen-5a38b9331/"><FontAwesomeIcon icon={faLinkedin} /></a>
+              <a target="_blank" rel="noopener noreferrer" href="mailto:antonio.brynildsen@hotmail.com?subject=Contact from Portfolio"><FontAwesomeIcon icon={faEnvelope} /></a>
             </div>
           </div>
         </div>
