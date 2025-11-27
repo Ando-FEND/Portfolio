@@ -19,13 +19,13 @@ const Home = () => {
     {
       title:"Tamagochi application",
       description:"A tamagochi game where you can feed, play and take a nap",
-      date:"Okt.2024 / Design & Dev",
+      date:"Dec.2024 / Design & Dev",
       githubUrl:"https://tamagochi-orcin.vercel.app/"
     },
     {
       title:"Quiz application",
       description:"My first application made with javascript",
-      date:"Dec.2024 / Design & Dev",
+      date:"Okt.2024 / Design & Dev",
       githubUrl:"https://quiz-uppgift.vercel.app/"
     }
   ]
