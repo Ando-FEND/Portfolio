@@ -7,34 +7,22 @@ import Arr from '../components/arr.jsx'
 const Home = () => {
   const projectsData = [
     {
-      title:"Quiz application",
-      description:"My first application made with javascript",
-      date:"Dec.2024 / Design & Dev",
-      githubUrl:"https://quiz-uppgift.vercel.app/"
+      title:"Hotel booking page",
+      description:"Built a booking page with back and frontend",
+      date:"Sep.2025 / Design(kind of) & Dev",
+      githubUrl:"https://js-backend-two.vercel.app/"
     },
     {
       title:"Tamagochi application",
       description:"A tamagochi game where you can feed, play and take a nap",
-      date:"Apr.2025 / Design & Dev",
-      githubUrl:""
+      date:"Okt.2024 / Design & Dev",
+      githubUrl:"https://tamagochi-orcin.vercel.app/"
     },
-        {
-      title:"Tamagochi application",
-      description:"A tamagochi game where you can feed, play and take a nap",
-      date:"Apr.2025 / Design & Dev",
-      githubUrl:""
-    },
-        {
-      title:"Tamagochi application",
-      description:"A tamagochi game where you can feed, play and take a nap",
-      date:"Apr.2025 / Design & Dev",
-      githubUrl:""
-    },
-        {
-      title:"Tamagochi application",
-      description:"A tamagochi game where you can feed, play and take a nap",
-      date:"Apr.2025 / Design & Dev",
-      githubUrl:""
+    {
+      title:"Quiz application",
+      description:"My first application made with javascript",
+      date:"Dec.2024 / Design & Dev",
+      githubUrl:"https://quiz-uppgift.vercel.app/"
     }
   ]
   return (
@@ -74,7 +62,7 @@ I’ve always been interested in technology. I built my first PC at the age of 1
 My other interest is food! Since I was 18, I’ve always worked with something involving food—cafés, bars, restaurants, you name it. But after working in that industry on and off for almost 10 years, I’ve really gotten into coding and enjoyed it a lot so far.
 <br></br>
 <br></br>
-I enjoy creating simple and clean websites, Hopefully this portfolio represents what I’m striving to become: a web developer who creates minimalistic yet user-friendly websites and applications.
+I enjoy creating simple and clean websites, hopefully this portfolio represents what I’m striving to become: a web developer who creates minimalistic yet user-friendly websites and applications.
             </p>         
             </div>
           </div>
@@ -87,8 +75,7 @@ I enjoy creating simple and clean websites, Hopefully this portfolio represents 
         <h1>Projects</h1>
         <div className='projects-container'>
           {projectsData.map((project, index) => (
-            <Projectcard
-              key={index}
+            <Projectcard key={index}
               title={project.title}
               description={project.description}
               date={project.date}
