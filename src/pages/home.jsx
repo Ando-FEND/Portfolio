@@ -94,7 +94,7 @@ I enjoy creating simple and clean websites, hopefully this portfolio represents 
       
       <section className='contact-container' id="contact">
         <div className='stuff'>
-          <h1>Contact</h1>
+          <h1 className='contact-h1'>Contact</h1>
           <h3>Currently looking for an internship/LIA remote or on site</h3>
           <div className='contact-links-container'>
             <div className='socialmedia-link'>

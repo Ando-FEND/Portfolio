@@ -103,6 +103,7 @@ html{
           text-align: center;
         }
       }
+      
     .link-container {
         order: 2; // Navigation/links efter
         align-items: center; // Centrera istället för flex-end
@@ -114,4 +115,11 @@ html{
     }
 }
 
-svg{font-size: 30px;}
+svg{font-size: 45px;
+
+  @media (max-width:768px) 
+  {
+    font-size: 35px;
+  }
+
+}
